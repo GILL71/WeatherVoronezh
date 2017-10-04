@@ -31,26 +31,18 @@ class ForecastViewController: UITableViewController {
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return forecasts.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if indexPath.row == 0 {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "ForecastCellId", for: indexPath) as! ForecastCell
-            cell.fillWith(forecasts[indexPath.row])
+        let cell = tableView.dequeueReusableCell(withIdentifier: "OtherDayId", for: indexPath) as! OtherForecastCell
+        cell.fillWith(forecasts[indexPath.row])
+        if indexPath.row % 2 == 0 {
             cell.backgroundColor = UIColor(red:0.58, green:0.79, blue:0.91, alpha:1.0)
-            return cell
         } else {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "OtherDayId", for: indexPath) as! OtherForecastCell
-            cell.fillWith(forecasts[indexPath.row])
-            if indexPath.row % 2 == 0 {
-                cell.backgroundColor = UIColor(red:0.58, green:0.79, blue:0.91, alpha:1.0)
-            } else {
-                cell.backgroundColor = UIColor(red:0.73, green:0.78, blue:0.81, alpha:1.0)
-            }
-            return cell
+            cell.backgroundColor = UIColor(red:0.73, green:0.78, blue:0.81, alpha:1.0)
         }
+        return cell
     }
  
     // MARK: - Navigation

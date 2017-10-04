@@ -18,7 +18,6 @@
 		4B5BDEA81F7270C600EAAF9A /* Forecast+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BDEA61F7270C600EAAF9A /* Forecast+CoreDataProperties.swift */; };
 		4B5BDEAA1F7282E400EAAF9A /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BDEA91F7282E400EAAF9A /* DataSource.swift */; };
 		4B5BDEAC1F7284E900EAAF9A /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BDEAB1F7284E900EAAF9A /* Parser.swift */; };
-		4B5BDEAE1F739FA500EAAF9A /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BDEAD1F739FA500EAAF9A /* ForecastCell.swift */; };
 		4B5BDEB11F73D75A00EAAF9A /* OtherForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BDEB01F73D75A00EAAF9A /* OtherForecastCell.swift */; };
 		4B5BDEB31F73DB6E00EAAF9A /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BDEB21F73DB6E00EAAF9A /* InfoController.swift */; };
 		4B5BDEB51F76CD0000EAAF9A /* CustomLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BDEB41F76CD0000EAAF9A /* CustomLocationManager.swift */; };
@@ -39,7 +38,6 @@
 		4B5BDEA61F7270C600EAAF9A /* Forecast+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Forecast+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4B5BDEA91F7282E400EAAF9A /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		4B5BDEAB1F7284E900EAAF9A /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		4B5BDEAD1F739FA500EAAF9A /* ForecastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
 		4B5BDEB01F73D75A00EAAF9A /* OtherForecastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherForecastCell.swift; sourceTree = "<group>"; };
 		4B5BDEB21F73DB6E00EAAF9A /* InfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
 		4B5BDEB41F76CD0000EAAF9A /* CustomLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLocationManager.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				4B5BDEAF1F73D17300EAAF9A /* Controller */,
 				4B5BDE9E1F71704200EAAF9A /* ApiClient.swift */,
 				4B5BDEB41F76CD0000EAAF9A /* CustomLocationManager.swift */,
-				4B5BDEAD1F739FA500EAAF9A /* ForecastCell.swift */,
 				4B5BDEB01F73D75A00EAAF9A /* OtherForecastCell.swift */,
 				4B5BDEAB1F7284E900EAAF9A /* Parser.swift */,
 				4B5BDE9B1F71700700EAAF9A /* Supporting files */,
@@ -199,7 +196,6 @@
 				4B5BDEA71F7270C600EAAF9A /* Forecast+CoreDataClass.swift in Sources */,
 				4B5BDE8F1F716FDB00EAAF9A /* WeatherVoronezh.xcdatamodeld in Sources */,
 				4B5BDEA81F7270C600EAAF9A /* Forecast+CoreDataProperties.swift in Sources */,
-				4B5BDEAE1F739FA500EAAF9A /* ForecastCell.swift in Sources */,
 				4B5BDEAC1F7284E900EAAF9A /* Parser.swift in Sources */,
 				4B5BDE871F716FDB00EAAF9A /* AppDelegate.swift in Sources */,
 				4B5BDE9D1F71702F00EAAF9A /* ForecastViewController.swift in Sources */,
